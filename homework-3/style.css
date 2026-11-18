@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 24px 16px;
+  color: #222;
+  background-color: #f4f5f7;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.report {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.report h1,
+.report h2 {
+  margin-top: 0;
+}
+
+.summary,
+.results {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #cdd2d9;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.summary-card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: min(100%, 290px);
+  margin: 0 6px 8px 0;
+  padding: 8px 12px;
+  vertical-align: top;
+  border: 1px solid #d3dbe6;
+  background-color: #edf3fb;
+}
+
+select,
+button {
+  margin: 4px 0;
+  padding: 5px 8px;
+  border: 1px solid #aeb7c4;
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  color: #fff;
+  background-color: #27578e;
+  border-color: #27578e;
+}
+
+.result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-item {
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border: 1px solid #d3dbe6;
+  background-color: #f7faff;
+  overflow-wrap: anywhere;
+}
+
+.result-name {
+  display: block;
+  font-weight: bold;
+}
